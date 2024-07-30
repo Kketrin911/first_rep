@@ -1,4 +1,4 @@
-import random
+# import random
 
 
 # name = input ('введите имя: ')
@@ -161,3 +161,47 @@ import random
 #                         total +=1
 #                         print ('a=', a, 'b=', b, 'c=', c, 'd=', d, 'e=', e)
 # print ('количество решений ', total)                
+# n = int (input())
+# if 102<=n<=10**9:
+#     sum_in_1_to_99 = 99*(99+1)//2
+#     sum_in_1_to_n = n*(n+1)//2
+#     itog = sum_in_1_to_n - sum_in_1_to_99
+#     print (itog)
+# n = int(input())
+# stroka =  str(input())
+# if (1<=n<=500000) and (len(stroka)==n):
+
+#     count_a = 0
+#     for i in stroka:
+#         if i == 'a':
+#             count_a +=1
+#     print (count_a)
+
+# import re
+# text = ""
+# while True:
+#     try:
+#         line = str(input())
+#         if not line:
+#             break
+#         text = text + line
+#     except EOFError:
+#         break
+# lower_text = (text.lower())
+# without_punctuation = re.sub(r'[^\w\s]', '', lower_text)
+# print(without_punctuation.count(' a ') + without_punctuation.count('a '))
+
+# n = int(input())
+# if 1<=n<=1000:
+#     matrix = [list(map(int, input().split())) for _ in range(n)]
+#     for i in 
+    
+# n = int(input())
+# if 1<=n<=10**8:
+#     if n == 1:
+#         zarazn_person = 1
+#     else:
+#         zarazn_person = (n-1) * 4
+#     print (zarazn_person)   
+
+    
